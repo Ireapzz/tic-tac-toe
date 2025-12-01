@@ -1,0 +1,42 @@
+name: tic_tac_toe
+description: "A Flutter Tic-Tac-Toe game application."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.0.3
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+  riverpod_annotation: ^3.0.0
+  rive: ^0.13.20
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.10.4
+  freezed: ^3.2.3
+  json_serializable: ^6.11.2
+  riverpod_generator: ^3.0.0
+  riverpod_lint: ^3.0.0
+  mockito: ^5.6.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+
+
+
