@@ -4,6 +4,8 @@ import 'package:tic_tac_toe/features/game/domain/models/player.dart';
 class MinimaxAI {
   int getBestMove(GameModel gameModel) {
     final emptyCells = _getEmptyCells(gameModel.board);
+
+    // TODO: Add difficulty levels (easy, medium, hard)
     if (emptyCells.length == 9) {
       return 4;
     }
